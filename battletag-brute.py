@@ -1,8 +1,9 @@
 #!/usr/bin/env python2
 # coding: utf-8
-# AetherEternity, 2017
-# https://
-
+# AetherEternity, Jul 2017
+# https://github.com/AetherEternity/battletag-brute
+# GPLv3
+ 
 # Enable dialogue mode
 switch=1
 if (switch):
