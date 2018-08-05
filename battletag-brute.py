@@ -30,7 +30,7 @@ import requests
 for val in range(10000):
 	r = requests.get('https://api.hotslogs.com/Public/Players/'+str(targetRegion)+'/'+targetName+'_'+str(targetRegion)+str(val))
 	if r.text!='null':
-		print('Found: '+targetName+'#')+str(targetRegion)+str(val)
+		print('Found: '+targetName+'#'+str(targetRegion)+str(val))
 		success=1
 		if allvars:
 			exit()
